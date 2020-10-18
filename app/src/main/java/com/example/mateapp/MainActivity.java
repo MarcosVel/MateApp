@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Botão de KM para Mt
-        Button btnKmMtprog = (Button) findViewById(R.id.btnKmMt);
+        Button btnKmMtProg = (Button) findViewById(R.id.btnKmMt);
         //Botão de Mt para KM
-        Button btnMtKmprog = (Button) findViewById(R.id.btnMtKm);
+        Button btnMtKmProg = (Button) findViewById(R.id.btnMtKm);
 
-        btnKmMtprog.setOnClickListener(new View.OnClickListener() {
+        btnKmMtProg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, KmM.class);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnMtKmprog.setOnClickListener(new View.OnClickListener() {
+        btnMtKmProg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MKm.class);
